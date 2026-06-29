@@ -24,7 +24,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## How to Run & Use 💻
+## How to Run Locally 💻
 
 1. Launch the application:
 ```bash
@@ -33,3 +33,13 @@ venv/bin/python key.py
 2. Your camera will activate, presenting a large 1600x900 window containing the Virtual Keyboard on the right.
 3. Bring your **left hand** in frame to control the mouse pointer. Pinch your thumb and index finger together to Left Click.
 4. Bring your **right hand** in frame and hover your index finger over the augment keyboard keys. Pinch your thumb and index together to type the letter!
+
+## Streamlit Demo 🌐
+
+If you want to deploy the project to Streamlit, use the web demo entrypoint:
+
+```bash
+streamlit run app.py
+```
+
+The Streamlit version shows hand detection and landmark overlays in the browser. It does not provide OS-level mouse movement or keyboard typing, because those require a local desktop app.
