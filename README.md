@@ -28,7 +28,7 @@ pip install -r requirements.txt
 
 1. Launch the application:
 ```bash
-python key.py
+venv/bin/python key.py
 ```
 2. Your camera will activate, presenting a large 1600x900 window containing the Virtual Keyboard on the right.
 3. Bring your **left hand** in frame to control the mouse pointer. Pinch your thumb and index finger together to Left Click.
