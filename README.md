@@ -43,3 +43,5 @@ streamlit run app.py
 ```
 
 The Streamlit version shows hand detection and landmark overlays in the browser. It does not provide OS-level mouse movement or keyboard typing, because those require a local desktop app.
+
+For Streamlit Cloud, the project uses `opencv-python-headless` instead of the desktop OpenCV wheel, which avoids `libGL.so.1` issues in the hosted Linux environment.
